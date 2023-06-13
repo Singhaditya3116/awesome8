@@ -1,0 +1,270 @@
+* {
+  /* background-color: black; */
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  font-family: "Noto Sans";
+  background-color: #f5f5f5;
+  /* overflow-x: hidden; */
+}
+
+/* Navbar Section */
+
+body nav,
+main {
+  /* height: 48px; */
+  width: 375px;
+  background-color: white;
+}
+
+nav {
+  /* background-color: #ffffff; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0.9rem 0rem 0.9rem;
+}
+
+.back-section,
+.notification-section {
+  cursor: pointer;
+}
+
+.name-section {
+  font-weight: 700;
+}
+
+/* Main-section */
+
+main {
+  display: flex;
+  flex-direction: column;
+  /* background-color: cyan; */
+  padding: 1.2rem 0.9rem 0rem 0.9rem;
+}
+
+.user-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-section {
+  display: flex;
+  font-size: 1rem;
+}
+
+.profile {
+  width: 2.3rem;
+  height: 2rem;
+  background-color: #ffdca9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.3rem;
+}
+
+.profile img {
+  width: 80%;
+  height: 80%;
+}
+
+.user-name {
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin-right: 0.3rem;
+}
+
+.height-info {
+  color: #919eb6;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.verified-section {
+  display: flex;
+}
+
+.verified-section div {
+  margin-right: 0.3rem;
+}
+
+.verified-section p {
+  font-weight: 500;
+  font-size: 0.55rem;
+  color: #919eb6;
+}
+
+.profile-btn button {
+  border: 0px;
+  background-color: #01b99f;
+  border-radius: 999px;
+  padding: 6px 12px;
+  color: white;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.65rem;
+  cursor: pointer;
+}
+
+/* Content Section */
+
+.content {
+  padding-top: 0.9rem;
+}
+
+.content-title {
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+.content-description {
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.content-description p {
+  padding-bottom: 0.5rem;
+  color: #313b49;
+}
+
+.content-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  color: #5a6b87;
+  background: #f7f8fa;
+  border: 0.5px solid #ced3de;
+  border-radius: 999px;
+}
+
+/* Post Image Section */
+
+.post-image {
+  position: relative;
+  left: -0.9rem;
+  width: 22.65rem;
+  height: 25rem;
+  margin-top: 0.2rem;
+}
+
+.post-image img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Action Button section */
+
+.action-btns {
+  position: relative;
+  left: -0.9rem;
+  padding: 0.7rem 0rem 0.5rem 0.9rem;
+  width: 21.6rem;
+  border: 0.5px solid #ced3de;
+}
+
+.action-btns,
+.like-section,
+.comm-section {
+  display: flex;
+}
+
+.like-image,
+.comm-image {
+  margin-right: 0.3rem;
+}
+.like-count,
+.comm-count {
+  margin-right: 0.8rem;
+}
+
+.save-image {
+  margin-right: 1rem;
+}
+
+.option-section {
+  position: relative;
+  top: -5px;
+}
+
+/* Comment-Section */
+
+.comment-section {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Comment-pipeline */
+.comment-pipeline {
+  color: #313b49;
+  position: relative;
+  left: 1rem;
+  top: 0.2rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.comment-pipeline .action-btns {
+  border: 0px;
+}
+
+.tagged-comment {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.3rem;
+  color: #313b49;
+  position: relative;
+  left: 2rem;
+}
+
+.tagged-para {
+  position: relative;
+  left: 2.5rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.tagged-para .action-btns {
+  border: 0px;
+}
+
+/* Footer */
+
+footer {
+  background-color: white;
+  padding: 1.2rem 0.9rem 1rem 0.9rem;
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .gallery-section {
+  display: flex;
+  font-size: 0.75rem;
+}
+
+.gallery-section img {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
